@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.whoiam{
+    text-align: center;
+    font-family: Poppins-Bold;
+    font-size: 60px;
+    font-weight: bold;
+ 
+}
+.whoiam::after{
+    content: "";
+    display: block;
+    width: 70px;
+    height: 5px;
+    background: #f7444e;
+    margin: 10px auto 10px;
+}
+.menu {
+    border-bottom: 1px solid transparent;
+
+}
+.menu:hover{
+    border-bottom: 1px solid #000;
+}
+.bgimage{
+    background-color: rgb(216, 209, 199);
+}
+.text{
+    color: hsl(357, 92%, 62%);
+    padding: 10%;
+    font-family: Poppins-Bold;
+    font-size: 45px;
+    font-weight: bold;
+}
+.para{
+    margin-top: -15%;
+    padding: 10%;
+    font-size: 18px;
+    font-family: Poppins-Bold;
+}
+/* footer */
+.bgfooter{
+    background-color: #f8f8f8;
+    width: 100%;
+}
+.detail p{
+    margin-bottom: 1.2rem;
+    line-height: 25px;
+    font-size: 15px;
+}
+.my-portfolio{
+    text-align: center;
+}
+input{
+    width: 60%;
+    height: 60px;
+    border: none;
+    border-radius: 90px;
+    outline: none;
+    padding: 5px 25px;
+    background-color: #ffffff;
+    text-align: left;
+}
+.middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  
+  .card:hover .middle {
+    opacity: 1;
+  }
+  
+  .text111 {
+    background-color: hsl(357, 92%, 62%);
+    color: white;
+    font-size: 16px;
+    padding: 16px 32px;
+    cursor: pointer;
+  }
+  
